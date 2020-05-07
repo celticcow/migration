@@ -13,7 +13,7 @@ class appgroup(object):
         self.eai_num = eai_num
         self.level = level
         self.comment = comment
-        self.name = self.level + "_eai" + self.eai_num + "-" + self.level
+        self.name = self.data_center + "_eai-" + self.eai_num + "-" + self.level
 
     ## Accessor
 
@@ -32,6 +32,9 @@ class appgroup(object):
     def get_comment(self):
         return(self.comment)
 
+    def print_appgroup(self):
+        print(self.name + " / " + self.comment)
+
     ## Modifiers
 
     def set_data_center(self, data_center):
@@ -45,6 +48,5 @@ class appgroup(object):
     
     def set_comment(self, comment):
         self.comment = comment
-
 
 #end of class
