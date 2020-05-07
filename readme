@@ -1,0 +1,6 @@
+i need to create a lot of groups in R80.xx 
+
+the regular bulk add scripts want to ask before adding a group adn i don't want to modify that
+
+and i want to put cmdb type data into the comment field ... so starting new repo to assist with
+migration effort use cases
