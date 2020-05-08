@@ -3,3 +3,6 @@ test.csv
 EAI_PGH2LAS.csv
 __pycache__/
 validate.csv
+out
+out2
+test-file.csv
